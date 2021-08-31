@@ -1,1 +1,1 @@
-The Flow exported from Dialogflow CX console
+The flow exported from Dialogflow CX console.
