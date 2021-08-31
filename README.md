@@ -17,6 +17,6 @@ User may provide:
 - An obsolete/discontinued product that may or may not have been replaced with another. The chatbot prompts user to confirm if they want information about the replacing product.
 - A version that does not exist. The chatbot considers the latest version of a given product in such a case.
 
-*Judges, please refer to the screenshot of interactions showing such input.*
+*Judges, please refer to the screenshot of interactions, available in the **BotInteractionTests** folder, showing such input.*
 
 When the chatbot receives all required input, it is supposed to make a REST API call to the CorpX documentation portal service, providing the collected input at request parameters (only a placeholder provided). It is supposed to receive a JSON response from the API about matching document(S) containing information requested by the user. The response is to contain one or more entries, each entry containing the document name, URL of an icon indicating the document type (Text/Word/PDF/EXL etc), and a download link for the document. The chatbot will then render these as custom payload in its turn to the user.
